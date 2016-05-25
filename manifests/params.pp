@@ -21,12 +21,12 @@ class designate::params {
       $mdns_package_name         = 'openstack-designate-mdns'
       $pool_manager_package_name = 'openstack-designate-pool-manager'
       # service names
-      $agent_service_name        = 'openstack-designate-agent'
-      $api_service_name          = 'openstack-designate-api'
-      $central_service_name      = 'openstack-designate-central'
-      $sink_service_name         = 'openstack-designate-sink'
-      $mdns_service_name         = 'openstack-designate-mdns'
-      $pool_manager_service_name = 'openstack-designate-pool-manager'
+      $agent_service_name        = 'designate-agent'
+      $api_service_name          = 'designate-api'
+      $central_service_name      = 'designate-central'
+      $sink_service_name         = 'designate-sink'
+      $mdns_service_name         = 'designate-mdns'
+      $pool_manager_service_name = 'designate-pool-manager'
     }
     'Debian': {
       # package name
